@@ -9,6 +9,7 @@ import "./components/Netflix.module.css"
 // import { DericatedState } from "./Hooks/DericatedState";
 // import { DerivedState  } from "./components/DerivedState";
 import { LiftingState } from "./components/LiftStateUp";
+import { ToggleSwitch } from "./Projects/Toggleswitch/ToggleSwitch";
 
 export const App = () => {
   // return React.createElement("h1", null,"heloo world");
@@ -27,7 +28,8 @@ export const App = () => {
       {/* <EventPropagation/> */}
       {/* <State/> */}
       {/* <DerivedState/> */}
-      <LiftingState/>
+      {/* <LiftingState/> */}
+      <ToggleSwitch/>
       
     </section>
   );
